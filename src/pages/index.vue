@@ -17,6 +17,11 @@
       <el-button type="warning">Warning</el-button>
       <el-button type="danger">Danger</el-button>
     </el-row>
+    <div class="i-ph-anchor-simple-thin"></div>
+    <div class="i-mdi-alarm text-orange-400"></div>
+    <div class="i-logos-vue text-3xl"></div>
+    <button class="i-carbon-sun dark:i-carbon-moon"></button>
+    <div class="i-ion:airplane" style="color: red; font-size: 1.5rem"></div>
   </div>
 </template>
 

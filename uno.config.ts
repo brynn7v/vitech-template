@@ -1,6 +1,15 @@
 import { defineConfig } from 'unocss'
-import { presetWind } from 'unocss/preset-wind'
+// import { presetWind } from 'unocss/preset-wind'
+import { presetWind, presetIcons } from 'unocss'
 
 export default defineConfig({
-  presets: [presetWind()]
+  presets: [
+    presetWind(),
+    presetIcons({
+      prefix: 'i-',
+      extraProperties: {
+        display: 'inline-block'
+      }
+    })
+  ]
 })
